@@ -1,0 +1,107 @@
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-5 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 mt-10 lg:mb-0">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-3 text-gray-900">AI Development Services</h1>
+        <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+        <p class="lg w-full leading-relaxed text-gray-500 py-3 pr-5 pt-5 pb-5 text-justify">In today's rapidly evolving digital landscape, businesses are constantly seeking innovative ways to gain a competitive edge and drive growth. Artificial Intelligence (AI) has emerged as a transformative force,
+           revolutionizing industries by enabling automation, enhancing decision-making, and unlocking new opportunities for efficiency and innovation.
+           <p-divider type="solid"></p-divider>
+          we specialize in harnessing the power of AI to empower businesses like yours to thrive in the digital age. Our comprehensive suite of AI services is designed to address your unique challenges and capitalize on the vast potential of this groundbreaking technology.</p>
+          <button routerLink="/about" class="flex-shrink-0 cursor-pointer text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">Learn More</button>
+        </div>
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <div class="mx-auto" style="
+    width:100%;
+    padding-top:1rem;
+    display:block">
+<p-galleria [value]="images" 
+           [circular]="true" [numVisible]="4" [autoPlay]="true" [showItemNavigators]="true">
+      <ng-template pTemplate="item" let-item>
+             <img [src]="item.previewImageSrc" 
+                   style="width: 100%;height:50vh;
+                          display:block" />
+      </ng-template>
+      <br /><br />
+      <ng-template pTemplate="caption" let-item>
+             <h4 style="color: #ffffff;">
+                    {{ item.title }}
+             </h4>
+      </ng-template>
+      <ng-template pTemplate="thumbnail" let-item>
+             <div class="grid grid-nogutter 
+                         justify-content-center">
+                    <img [src]="item.thumbnailImageSrc" 
+                          style="width: 100%" />
+             </div>
+      </ng-template>
+</p-galleria>
+</div>  
+      </div>
+        </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-5 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">OUR AI GALLERY</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Angular PrimeNG is an open-source UI component library for Angular Applications. Using the components provided by Angular PrimeNG, one can create stunning and responsive angular applications. In this post, we will see Angular PrimeNG Galleria Thumbnail.</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex ">
+            <p-image 
+    src="https://images.pexels.com/photos/5473955/pexels-photo-5473955.jpeg?auto=compress&cs=tinysrgb&w=600"
+    [preview]="true"  
+    alt="logo"> 
+</p-image>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex">
+            <p-image 
+            src="https://images.pexels.com/photos/8438923/pexels-photo-8438923.jpeg?auto=compress&cs=tinysrgb&w=600"
+            [preview]="true"  
+            alt="logo"> 
+        </p-image>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex">
+            <p-image 
+            src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600"
+            [preview]="true"  
+            alt="logo"> 
+        </p-image>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex ">
+            <p-image 
+            src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600"
+            [preview]="true"  
+            alt="logo"> 
+        </p-image>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex ">
+            <p-image 
+            src="https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=600"
+            [preview]="true"  
+            alt="logo"> 
+        </p-image>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex">
+            <p-image 
+            src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=600"
+            [preview]="true"  
+            alt="logo"> 
+        </p-image>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

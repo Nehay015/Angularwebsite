@@ -1,0 +1,22 @@
+<h2 class="hnjm mt-3 mb-10 text-center text-bold" mat-dialog-title>Login</h2>
+<mat-form-field class="example-full-width mx-auto mt-5">
+  <mat-label>Email</mat-label>
+  <input type="email" matInput placeholder="for@gmail.com" [formControl]="email" required>
+  @if (email.invalid) {
+    <mat-error>{{getErrorMessage()}}</mat-error>
+  }
+</mat-form-field>
+<mat-form-field class="example-full-width mx-auto">
+  <mat-label>Enter your password</mat-label>
+  <input matInput [type]="hide ? 'password' : 'text'" required>
+  <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+  </button>
+</mat-form-field>
+ <div class="mt-2 mx-10">
+        Not a member? <a routerLink="/register">Register</a>
+</div>   
+
+<mat-dialog-actions align="center" class="tgh">
+  <button class="hjkl" mat-button [mat-dialog-close]="true" cdkFocusInitial>Login</button>
+</mat-dialog-actions>

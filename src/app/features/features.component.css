@@ -1,0 +1,35 @@
+#sect1 {
+    color: #fff;
+    background-image: url("https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: 100%;
+    background-size: cover;
+    object-fit:cover;
+    height:400px;
+  }
+  .Ai{
+    padding-top:10rem;
+    color:#fff;
+    font-weight:700;
+    font-size:2.5rem;
+  }
+  #sect1 .px-5{
+    padding-right:4rem;
+    padding-left:4rem;
+    padding-top:0.8rem;
+  }
+  .mhn{
+    color:#000;
+    background: #ffffff91;
+    border-radius: 15px;
+    text-align: right;
+    padding: 2rem;
+
+  }
+  #se {
+    background-image: url("https://images.pexels.com/photos/17483867/pexels-photo-17483867/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-how-machine-learning-is-inspired-by-neuroscience-and-the-human-brain-it-was-created-by-novoto-studio-as-par.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: 100%;
+    background-size: cover;
+    object-fit:cover;
+    height:400px;
+  }
+  
